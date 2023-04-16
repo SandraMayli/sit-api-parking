@@ -3,21 +3,21 @@ package com.parking.apiparking.entities;
 import java.time.LocalDateTime;
 
 public class Car {
-    private String licencePlate;
+    private String licensePlate;
     private String color;
     private LocalDateTime entryTime;
 
-    public Car(String licencePlate, String color) {
-        this.licencePlate = licencePlate;
+    public Car(String licensePlate, String color) {
+        this.licensePlate = licensePlate;
         this.color = color;
     }
 
-    public String getLicencePlate() {
-        return licencePlate;
+    public String getLicensePlate() {
+        return licensePlate;
     }
 
-    public void setLicencePlate(String licencePlate) {
-        this.licencePlate = licencePlate;
+    public void setLicensePlate(String licencePlate) {
+        this.licensePlate = licencePlate;
     }
 
     public String getColor() {
